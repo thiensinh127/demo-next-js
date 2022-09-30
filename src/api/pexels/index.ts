@@ -3,7 +3,7 @@ import { GetServerSideProps } from 'next';
 
 const getServerSideProps: GetServerSideProps = async ({ param = {}, query }) => {
   console.log('aaaaaaaaaaaaaaaaaaaaaa')
-  const { page = 1, per_page = 200, search = '' } = query;
+  const { page = 2, per_page = 40, search = '' } = query;
 
   let data = {};
   let queryString = BASE_URL_API;

@@ -1,0 +1,40 @@
+.SearchImage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 630px;
+
+  .ant-typography {
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    color: #fff;
+    fill: #fff;
+  }
+  .ant-input {
+    font-size: 18px;
+    font-weight: 400;
+    color: #7f7f7f;
+  }
+  .ant-btn {
+    border: none;
+  }
+  .ant-input-affix-wrapper {
+    height: 45px;
+    padding-left: 20px;
+  }
+  .ant-input-search-button {
+    height: 40px;
+  }
+  .ant-input-search .ant-input-group .ant-input-affix-wrapper:not(:last-child) {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+  .ant-input-group-addon:last-child {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+}

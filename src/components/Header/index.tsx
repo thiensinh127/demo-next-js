@@ -6,7 +6,7 @@ import {
   UserOutlined,
 } from '@ant-design/icons';
 import { Avatar, Divider, Dropdown, Input, Layout, Menu, Switch } from 'antd';
-import CustomImage from 'atomics/CustomImage';
+import CustomImage from 'atomics/Image';
 import { signInWithPopup } from 'firebase/auth';
 import { FC } from 'react';
 import Logo from '../../../public/images/logo.png';
