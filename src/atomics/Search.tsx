@@ -2,7 +2,7 @@ import { FC } from 'react';
 import { Input } from 'antd';
 const { Search } = Input;
 interface Props {
-  onSearch: () => void;
+  onSearch: any;
 }
 const InputSearch: FC<Props> = ({ onSearch }) => {
   return (

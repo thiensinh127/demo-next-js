@@ -5,10 +5,12 @@ import Footer from 'components/Footer';
 import MainLayout from 'layouts/MainLayout';
 import LoadedImages from './components/LoadedImages';
 import Background from './components/Background';
+import Pagination from './components/Pagination';
 
 interface Props {
   data: {
     photos: [];
+    total_results: number;
   };
 }
 
@@ -23,6 +25,7 @@ const Pexels: NextPage<Props> = ({ data }) => {
         </Head>
         <Background />
         <LoadedImages data={data} />
+        <Pagination total={data?.total_results} />
       </div>
     </MainLayout>
   );

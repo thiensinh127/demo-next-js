@@ -3,11 +3,11 @@
   width: 80%;
   margin: 0 auto;
   justify-content: space-between;
-  top: 88px;
   flex-grow: 5;
   gap: 16px;
   flex-wrap: wrap;
   position: relative;
+  margin: 30px auto;
 
   img {
     width: 100%;
@@ -35,7 +35,7 @@
     position: relative;
   }
 
-  .container:hover{
+  .container:hover {
     cursor: pointer;
   }
 
